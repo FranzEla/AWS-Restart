@@ -16,18 +16,14 @@ In the file preproinsulin-seq-clean.txt, copy your results.
 
 Confirm that your file has 110 characters of lowercase letters, which represent the amino acids in the sequence of human preproinsulin.
 
-In the AWS Cloud9 IDE, on the navigation pane, choose File > New File and save the file as lsinsulin-seq-clean.txt.
 
 In lsinsulin-seq-clean.txt, save amino acids 1–24. Verify that your file has 24 characters.
 
-In the AWS Cloud9 IDE, on the navigation pane, choose File > New File and save the file as binsulin-seq-clean.txt.
 
 In binsulin-seq-clean.txt, save amino acids 25–54. Verify that your file has 30 characters.
 
-In the AWS Cloud9 IDE, on the navigation pane, choose File > New File and save the file as cinsulin-seq-clean.txt.
 
 In cinsulin-seq-clean.txt, save amino acids 55–89. Verify that your file has 35 characters.
 
-In the AWS Cloud9 IDE, on the navigation pane, choose File > New File and save the file as ainsulin-seq-clean.txt.
 
 In ainsulin-seq-clean.txt, save amino acids 90–110. Verify that your file has 21 characters.
