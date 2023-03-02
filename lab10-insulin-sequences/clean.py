@@ -14,7 +14,7 @@ for i in text:
 
 print (count_letters, "\n")
 
-# Remove all characters, except small letters:
+# Remove all characters, except small letters; 
 text = re.sub(r'[^a-z]', '', text)
 
 print(text, "\n")
