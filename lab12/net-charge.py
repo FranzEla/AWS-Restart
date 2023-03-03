@@ -43,8 +43,8 @@ while (pH <= 14):
     print('{0:.2f}'.format(pH), netCharge)
     pH +=1
 
-print("-------------Understanding string formatting syntax-------------------")
-x = 10.34568789
-y = 3.14159
-formatted_string = "The value of x is {0:.2f}, and the value of y is {1:.2f}".format(x, y)
-print(formatted_string)
+# print("-------------Understanding string formatting syntax-------------------")
+# x = 10.34568789
+# y = 3.14159
+# formatted_string = "The value of x is {0:.2f}, and the value of y is {1:.2f}".format(x, y)
+# print(formatted_string)
