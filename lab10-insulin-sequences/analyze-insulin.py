@@ -1,5 +1,5 @@
 input_file = "preproinsulin-seq-clean.txt"
-output_file = "Isinsulin-seq-clean.txt"
+output_file = "lsinsulin-seq-clean.txt"
 
 
 with open(input_file, "r") as f:
@@ -8,17 +8,18 @@ with open(input_file, "r") as f:
 print("\n", text, "\n")
 
 insuline_list = list(text)
-# print(insuline_list)
+#print(insuline_list)
 
 lsinsulin = insuline_list[:24]
-# print(lsinsulin)
-# print(len(lsinsulin))
+#print(lsinsulin)
+#print(len(lsinsulin))
 
 lsinsuline_seq_clean = "".join(lsinsulin)
+# print(lsinsuline_seq_clean)
 
 print("The first {} amino acids are:".format(len(lsinsulin)), lsinsuline_seq_clean)
 
-mes =  "The first 24 amino acids are: " + lsinsuline_seq_clean
+mes = lsinsuline_seq_clean
 
 with open(output_file, "w") as f:
     f.write(mes)
@@ -35,13 +36,13 @@ with open(in_file, "r") as f:
 
 binsulin = insuline_list[24:54]
 # print(binsulin)
-# print("This is a sequence of", len(binsulin), "characters.")
+print("This is a sequence of", len(binsulin), "characters.")
 
 binsuline_seq_clean = "".join(binsulin)
 
 print("The next {} amino acids are:".format(len(binsulin)), binsuline_seq_clean)
 
-message =  "The next 30 amino acids are: " + binsuline_seq_clean
+message = binsuline_seq_clean
 
 with open(out_file, "w") as f:
     f.write(message)
@@ -60,13 +61,13 @@ with open(in_file, "r") as f:
 
 cinsulin = insuline_list[54:89]
 # print(ainsulin)
-# print("This is a sequence of", len(cinsulin), "characters.")
+print("This is a sequence of", len(cinsulin), "characters.")
 
 cinsuline_seq_clean = "".join(cinsulin)
 
 print("The next {} amino acids are:".format(len(cinsulin)), cinsuline_seq_clean)
 
-message =  "The next 35 amino acids are: " + cinsuline_seq_clean
+message = cinsuline_seq_clean
 
 with open(out_file, "w") as f:
     f.write(message)
@@ -84,13 +85,13 @@ with open(in_file, "r") as f:
 
 ainsulin = insuline_list[89:]
 # print(ainsulin)
-# print("This is a sequence of", len(ainsulin), "characters.")
+print("This is a sequence of", len(ainsulin), "characters.")
 
-ainsuline_seq_clean = "".join(cinsulin)
+ainsuline_seq_clean = "".join(ainsulin)
 
 print("The last {} amino acids are:".format(len(ainsulin)), ainsuline_seq_clean)
 
-message =  "The last 21 amino acids are: " + ainsuline_seq_clean
+message = ainsuline_seq_clean
 
 with open(out_file, "w") as f:
     f.write(message)
