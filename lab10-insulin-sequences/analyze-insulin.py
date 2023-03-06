@@ -8,7 +8,7 @@ with open(input_file, "r") as f:
 print("\n", text, "\n")
 
 insuline_list = list(text)
-#print(insuline_list)
+# print(insuline_list)
 
 lsinsulin = insuline_list[:24]
 #print(lsinsulin)
